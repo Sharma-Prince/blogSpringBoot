@@ -5,6 +5,7 @@ import com.example.blog.exceptions.ResourceNotFoundException;
 import com.example.blog.payloads.UserDto;
 import com.example.blog.repositories.UserRepo;
 import com.example.blog.service.UserService;
+import jakarta.validation.Valid;
 import org.modelmapper.ModelMapper;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
